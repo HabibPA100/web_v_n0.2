@@ -1,0 +1,4 @@
+.myTableBg{-webkit-animation:firstTable_Bg 8s linear infinite alternate both;animation:firstTable_Bg 8s linear infinite alternate both}
+@-webkit-keyframes firstTable_Bg{0%{background:#19dcea}25%{background:#b22cff}50%{background:#ea2222}75%{background:#f5be10}100%{background:#3bd80d}}@keyframes firstTable_Bg{0%{background:#19dcea}25%{background:#b22cff}50%{background:#ea2222}75%{background:#f5be10}100%{background:#3bd80d}}
+
+.foodAnimation{-webkit-animation:20s linear infinite alternate both foodAnim;animation:20s linear infinite alternate both foodAnim}@-webkit-keyframes foodAnim{0%{background:#74e0ee}100%{background:#f3cb49}}@keyframes foodAnim{0%{background:#4aea19}100%{background:#f5be10}}
