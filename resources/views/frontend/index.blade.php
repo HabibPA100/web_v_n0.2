@@ -197,76 +197,82 @@
     </div>
 </section>
 {{-- section for food items start here --}}
-  <section>
+<section>
     <div class="container">
-        <div class="card text-center p-3 mb-5 banglaFont foodAnimation" style="border-radius: 10px; box-shadow: 0px 2px 14px 7px #000000; outline: 3px solid #ff0000; outline-offset: 7px;">
-            <div class="card-header fs-5  text-white" style="background: rgb(168, 8, 173); border-radius: 6px;">
-              আমাদের প্রতিষ্ঠানের সাপ্তাহিক খাবারের তালিকা 
-            </div>
-            <div class="card-body">
-                <table class="table table-bordered border-primary p-2 fs-4">
-                    <thead class="text-dark">
-                      <tr>
-                        <th scope="col">বার</th>
-                        <th scope="col">সকালের খাবার</th>
-                        <th scope="col">দুপুরের খাবার</th>
-                        <th scope="col">রাতের খাবার</th>
-                      </tr>
-                    </thead>
-                    <tbody class="text-dark">
-                      <tr>
-                        <th scope="row" class="text-danger">শনিবার</th>
-                        <td>ভাত, ভাজি, ডাল</td>
-                        <td>ভাত, মাছ, ডাল</td>
-                        <td>ভাত, মাছ, ডাল</td>
-                      </tr>
-                      <tr>
-                        <th scope="row" style="color: rgb(255, 0, 255);">রবিবার</th>
-                        <td>ভাত, ভর্তা, ডাল </td>
-                        <td style="color: #ff0000">ভাত, গোস্ত, ডাল</td>
-                        <td style="color: #ff0000">ভাত, গোস্ত, ডাল</td>
-                      </tr>
-                      <tr>
-                        <th scope="row" style="color: rgb(55, 0, 252);">সোমবার</th>
-                        <td >ভাত, ভাজি, ডাল</td>
-                        <td>ভাত, ডিম, ডাল</td>
-                        <td>ভাত, ডিম, ডাল</td>
-                      </tr>
-                      <tr>
-                        <th scope="row" class="text-dark">মঙ্গলবার</th>
-                        <td style="color: red;">ভুনা খিচুড়ি</td>
-                        <td>ভাত, মাছ, ডাল</td>
-                        <td>ভাত, মাছ, ডাল</td>
-                      </tr>
-                      <tr>
-                        <th scope="row" style="color: rgb(25, 0, 255);">বুধবার</th>
-                        <td >ভাত, ভর্তা, ডাল</td>
-                        <td>ভাত, ডিম, ডাল </td>
-                        <td>ভাত, ডিম, ডাল </td>
-                      </tr>
-                      <tr>
-                        <th scope="row" class="text-danger">বৃহস্পতিবার</th>
-                        <td >ভাত, ভাজি, ডাল</td>
-                        <td style="color: rgb(204, 0, 255);">ভাত, গোস্ত, ডাল</td>
-                        <td style="color: rgb(212, 0, 255);">ভাত, গোস্ত, ডাল</td>
-                      </tr>
-                      <tr>
-                        <th scope="row" class="text-dark">শুক্রবার</th>
-                        <td >ভাত, ভর্তা, ডাল</td>
-                        <td>ভাত, ডিম, ডাল</td>
-                        <td>ভাত, ডিম, ডাল</td>
-                      </tr>
-                    </tbody>
-                  </table>
-            </div>
-            <div class="card-footer" style="background-color: rgb(168, 235, 252); border-radius: 10px">
-              <h5 class="text-center">
-                বিঃ দ্রঃ- ছাত্রদের সুবিধার্থে মাঝে মাঝে খাবারের পরিবর্তন করা হয়ে থাকে
-              </h5>
-            </div>
+      <div class="card text-center p-1 mb-5 banglaFont foodAnimation" 
+           style="border-radius: 10px; box-shadow: 0px 2px 14px 7px #000000; outline: 3px solid #ff0000; outline-offset: 7px;">
+        <div class="card-header fs-5 text-white" 
+             style="background: rgb(168, 8, 173); border-radius: 6px;">
+          আমাদের প্রতিষ্ঠানের সাপ্তাহিক খাবারের তালিকা
+        </div>
+        <div class="card-body">
+          <!-- Table wrapper -->
+          <div class="table-responsive">
+            <table class="table table-bordered border-primary p-2">
+              <thead class="text-dark">
+                <tr>
+                  <th scope="col">বার</th>
+                  <th scope="col">সকালের খাবার</th>
+                  <th scope="col">দুপুরের খাবার</th>
+                  <th scope="col">রাতের খাবার</th>
+                </tr>
+              </thead>
+              <tbody class="text-dark">
+                <tr>
+                  <th scope="row" class="text-danger">শনিবার</th>
+                  <td>ভাত, ভাজি, ডাল</td>
+                  <td>ভাত, মাছ, ডাল</td>
+                  <td>ভাত, মাছ, ডাল</td>
+                </tr>
+                <tr>
+                  <th scope="row" style="color: rgb(255, 0, 255);">রবিবার</th>
+                  <td>ভাত, ভর্তা, ডাল </td>
+                  <td style="color: #ff0000">ভাত, গোস্ত, ডাল</td>
+                  <td style="color: #ff0000">ভাত, গোস্ত, ডাল</td>
+                </tr>
+                <tr>
+                  <th scope="row" style="color: rgb(55, 0, 252);">সোমবার</th>
+                  <td>ভাত, ভাজি, ডাল</td>
+                  <td>ভাত, ডিম, ডাল</td>
+                  <td>ভাত, ডিম, ডাল</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-dark">মঙ্গলবার</th>
+                  <td style="color: red;">ভুনা খিচুড়ি</td>
+                  <td>ভাত, মাছ, ডাল</td>
+                  <td>ভাত, মাছ, ডাল</td>
+                </tr>
+                <tr>
+                  <th scope="row" style="color: rgb(25, 0, 255);">বুধবার</th>
+                  <td>ভাত, ভর্তা, ডাল</td>
+                  <td>ভাত, ডিম, ডাল </td>
+                  <td>ভাত, ডিম, ডাল </td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-danger">বৃহস্পতিবার</th>
+                  <td>ভাত, ভাজি, ডাল</td>
+                  <td style="color: rgb(204, 0, 255);">ভাত, গোস্ত, ডাল</td>
+                  <td style="color: rgb(212, 0, 255);">ভাত, গোস্ত, ডাল</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-dark">শুক্রবার</th>
+                  <td>ভাত, ভর্তা, ডাল</td>
+                  <td>ভাত, ডিম, ডাল</td>
+                  <td>ভাত, ডিম, ডাল</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-       </div>
+        </div>
+        <div class="card-footer" style="background-color: rgb(168, 235, 252); border-radius: 10px;">
+          <h5 class="text-center">
+            বিঃ দ্রঃ- ছাত্রদের সুবিধার্থে মাঝে মাঝে খাবারের পরিবর্তন করা হয়ে থাকে
+          </h5>
+        </div>
+      </div>
+    </div>
   </section>
+  
 {{-- section for food items end here --}}
 {{-- Massage to guirdeans --}}
 <section>
@@ -379,7 +385,7 @@
                         <div class="p-4">
                             <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
                             <h4 class="mb-3">জীবনের লক্ষ্য</h4>
-                            <p>শিক্ষা ও গবেষণার ক্ষেত্রে আমি হব 
+                            <p class="text-left">শিক্ষা ও গবেষণার ক্ষেত্রে আমি হব 
                                 একজন ধীমান ও বিদগ্ধ গবেষক। 
                                  রচনা ও সাংবাদিকতার অঙ্গনে একজন শক্তিশালী লেখক ও সাংবাদিক। 
                                 যুদ্ধের ময়দানে একজন বীর ও বিচক্ষণ সেনাপতি।
@@ -400,7 +406,7 @@
                         <div class="p-4">
                             <i class="fa fa-3x fa-globe text-primary mb-4"></i>
                             <h4 class="mb-3">ইন্টারনেট কী?</h4>
-                            <p>ইন্টারনেট হলো একটি বৈশ্বিক নেটওয়ার্ক যা অসংখ্য কম্পিউটার ও ডিভাইসকে একে অপরের সঙ্গে সংযুক্ত করে। এটি তথ্য আদান-প্রদানের একটি মাধ্যম, যেখানে ওয়েবসাইট, ইমেইল, সোশ্যাল মিডিয়া এবং অন্যান্য পরিষেবাগুলো চালানো হয়।
+                            <p class="text-left">ইন্টারনেট হলো একটি বৈশ্বিক নেটওয়ার্ক যা অসংখ্য কম্পিউটার ও ডিভাইসকে একে অপরের সঙ্গে সংযুক্ত করে। এটি তথ্য আদান-প্রদানের একটি মাধ্যম, যেখানে ওয়েবসাইট, ইমেইল, সোশ্যাল মিডিয়া এবং অন্যান্য পরিষেবাগুলো চালানো হয়।
                                 <p>
                                     <p class="d-inline-flex gap-1"> 
                                         <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
@@ -435,7 +441,7 @@
                         <div class="p-4">
                             <i class="fa fa-3x fa-home text-primary mb-4"></i>
                             <h4 class="mb-3">মাদ্‌রাসার ইতিহাস </h4>
-                            <p>মাদ্‌রাসা শব্দটি এসেছে "দরস" (পাঠ) শব্দ থেকে, যার অর্থ হলো শিক্ষার স্থান বা পাঠদান কেন্দ্র। এটি মূলত ইসলামী ধর্মীয় শিক্ষা প্রদানের জন্য প্রতিষ্ঠিত হয়, তবে সময়ের সাথে সাথে মাদ্‌রাসাগুলোতে ধর্মীয় বিষয়ের পাশাপাশি বিজ্ঞান, দর্শন, গণিত প্রভৃতি বিষয়ও পড়ানো হতো। বাংলাদেশের মাদ্‌রাসাগুলোর ইতিহাস মূলত ইসলামী শিক্ষা এবং ভারতীয় উপমহাদেশের মুসলিম ঐতিহ্যের সঙ্গে সম্পর্কিত।
+                            <p class="text-left">মাদ্‌রাসা শব্দটি এসেছে "দরস" (পাঠ) শব্দ থেকে, যার অর্থ হলো শিক্ষার স্থান বা পাঠদান কেন্দ্র। এটি মূলত ইসলামী ধর্মীয় শিক্ষা প্রদানের জন্য প্রতিষ্ঠিত হয়, তবে সময়ের সাথে সাথে মাদ্‌রাসাগুলোতে ধর্মীয় বিষয়ের পাশাপাশি বিজ্ঞান, দর্শন, গণিত প্রভৃতি বিষয়ও পড়ানো হতো। বাংলাদেশের মাদ্‌রাসাগুলোর ইতিহাস মূলত ইসলামী শিক্ষা এবং ভারতীয় উপমহাদেশের মুসলিম ঐতিহ্যের সঙ্গে সম্পর্কিত।
                             </p>
                         </div>
                     </div>
@@ -445,7 +451,7 @@
                         <div class="p-4">
                             <i class="fa fa-3x fa-book-open text-primary mb-4"></i>
                             <h4 class="mb-3">ছাত্রজীবন: স্বপ্ন ও সংগ্রামের এক অনন্য সময়</h4>
-                            <p>ছাত্রজীবন হলো মানুষের জীবনের সোনালি অধ্যায়, যা পরবর্তী জীবনের পথনির্দেশক হিসেবে কাজ করে। এই সময়ে যত বেশি চেষ্টা, পরিশ্রম এবং অনুশীলন করা যায়, ভবিষ্যতে তার সুফল তত বেশি পাওয়া যায়। যদিও ছাত্রজীবনে অনেক চ্যালেঞ্জ থাকে, তবে এটিই সেই সময় যখন মানুষ বড় স্বপ্ন দেখতে শিখে এবং নিজেকে বাস্তবায়নের জন্য প্রস্তুত করে।</p>
+                            <p class="text-left">ছাত্রজীবন হলো মানুষের জীবনের সোনালি অধ্যায়, যা পরবর্তী জীবনের পথনির্দেশক হিসেবে কাজ করে। এই সময়ে যত বেশি চেষ্টা, পরিশ্রম এবং অনুশীলন করা যায়, ভবিষ্যতে তার সুফল তত বেশি পাওয়া যায়। যদিও ছাত্রজীবনে অনেক চ্যালেঞ্জ থাকে, তবে এটিই সেই সময় যখন মানুষ বড় স্বপ্ন দেখতে শিখে এবং নিজেকে বাস্তবায়নের জন্য প্রস্তুত করে।</p>
                         </div>
                     </div>
                 </div>

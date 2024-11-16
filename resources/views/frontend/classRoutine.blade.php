@@ -22,7 +22,7 @@
          <div class="container my-4">
              <h2 class="text-center mb-4 resultYearsTextAnimation">হিফ্‌জ বিভাগ এর দৈনিক ক্লাস রুটিন</h2>
              <div class="table-responsive">
-                 <table class="table table-bordered border-primary text-center">
+            <table class="table table-bordered border-primary text-center text-dark">
                      <thead class="table-primary">
                      <tr>
                          <th>সময় সূচি</th>
@@ -100,7 +100,7 @@
                         <td colspan="12" class="text-success fs-4">রাত ১০.১৫ মিনিট থেকে রাত ৩.৩০ মিনিট পর্যন্ত রাতের ঘুমের আমল।</td>
                      </tr>
                  </tbody>
-             </table>
+            </table>
              <div class="card-footer">
                 <h4 class="text-primary"> <strong class="text-danger">বিশেষ দ্রষ্টব্য:-</strong> ছাত্রদের সুবিধার্থে মাঝেমধ্যে সময়কে শিথিল করে দেওয়া হয়।
                     এবং রাত, দিন, ছোট, বড়, হওয়ার কারণে সময়কে মানিয়ে নেওয়া হয়। ( ধন্যবাদ )</h4>
@@ -114,7 +114,7 @@
         <div class="container my-4">
             <h2 class="text-center mb-4 resultYearsTextAnimation">তৃতীয় শ্রেণী এর দৈনিক ক্লাস রুটিন</h2>
             <div class="table-responsive">
-                <table class="table table-bordered border-primary text-center">
+                <table class="table table-bordered border-primary text-center text-dark">
                     <thead>
                     <tr class="fs-5 text-dark">
                         <th>দিনের নাম </th>
@@ -223,7 +223,7 @@
             <div class="container my-4">
                 <h2 class="text-center mb-4 resultYearsTextAnimation">দ্বিতীয় শ্রেণী এর দৈনিক ক্লাস রুটিন</h2>
                 <div class="table-responsive">
-                    <table class="table table-bordered border-primary text-center">
+                    <table class="table table-bordered border-primary text-center text-dark">
                         <thead class="table-primary">
                         <tr>
                             <th>দিনের নাম </th>
@@ -332,7 +332,7 @@
             <div class="container my-4">
                 <h2 class="text-center mb-4 resultYearsTextAnimation">প্রথম শ্রেণী এর দৈনিক ক্লাস রুটিন</h2>
                 <div class="table-responsive">
-                    <table class="table table-bordered border-primary text-center">
+                    <table class="table table-bordered border-primary text-center text-dark">
                         <thead class="table-primary">
                         <tr>
                             <th>দিনের নাম </th>
@@ -441,7 +441,7 @@
             <div class="container my-4">
                 <h2 class="text-center mb-4 resultYearsTextAnimation">নার্সারি জামাত এর দৈনিক ক্লাস রুটিন</h2>
                 <div class="table-responsive">
-                    <table class="table table-bordered border-primary text-center">
+                    <table class="table table-bordered border-primary text-center text-dark">
                         <thead class="table-primary">
                         <tr>
                             <th>দিনের নাম </th>
@@ -535,7 +535,7 @@
             <div class="container my-4">
                 <h2 class="text-center mb-4 resultYearsTextAnimation">প্লে জামাত এর দৈনিক ক্লাস রুটিন</h2>
                 <div class="table-responsive">
-                    <table class="table table-bordered border-primary text-center">
+                    <table class="table table-bordered border-primary text-center text-dark">
                         <thead class="table-primary">
                         <tr>
                             <th>দিনের নাম </th>

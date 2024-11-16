@@ -109,10 +109,10 @@ td{
                 <h6 class="text-center">
                   <div class="d-flex justify-content-center mb-2">
                     <a href="{{ url('https://wa.me/01921179455') }}">
-                      <img src="{{ asset('frontend/img/whatsapp.png') }}" alt="WhatsApp" class="rounded-circle" style="width: 30px; height: 30px;">
+                      <img src="{{ asset('frontend/img/whatsapp.png') }}" alt="WhatsApp" class="rounded-circle" style="width: 26px; height: 26px;">
                     </a>
                     <a href="{{ url('https://imo.im/01921179455') }}" class="ms-2">
-                      <img src="{{ asset('frontend/img/imo.png') }}" alt="Imo" class="rounded-circle" style="width: 25px; height: 25px;">
+                      <img src="{{ asset('frontend/img/imo.png') }}" alt="Imo" class="rounded-circle" style="width: 30px; height: 30px;"> 
                     </a>
                   </div>
                   Phone: 01921-179455,<br> <i class="fa-solid fa-phone"></i> 0187590-5552
@@ -133,10 +133,10 @@ td{
                 <h6 class="text-center">
                   <div class="d-flex justify-content-center mb-2">
                     <a href="{{ url('https://wa.me/01921179455') }}">
-                      <img src="{{ asset('frontend/img/whatsapp.png') }}" alt="WhatsApp" class="rounded-circle" style="width: 30px; height: 30px;">
+                      <img src="{{ asset('frontend/img/whatsapp.png') }}" alt="WhatsApp" class="rounded-circle" style="width: 26px; height: 26px;">
                     </a>
                     <a href="{{ url('https://imo.im/01921179455') }}" class="ms-2">
-                      <img src="{{ asset('frontend/img/imo.png') }}" alt="Imo" class="rounded-circle" style="width: 25px; height: 25px;">
+                      <img src="{{ asset('frontend/img/imo.png') }}" alt="Imo" class="rounded-circle" style="width: 30px; height: 30px;">
                     </a>
                   </div>
                   মোবাইল: 01921-179455,<br> <i class="fa-solid fa-phone"></i> 0187590-5552
